@@ -11,7 +11,7 @@ class Layer:
         self.neurons.append(neuron)
 
 neuron1 = Neuron([0.2, 0.7, 0.34], 0.12)
-neuron2 = Neuron([0.8, 0.13, 0.52], 0.54)
+neuron2 = Neuron([0.8, 0.13, 0.11], 0.54)
 neuron3 = Neuron([0.96, 0.64, 0.24], 0.72)
 
 layer1 = Layer()
