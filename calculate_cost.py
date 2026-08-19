@@ -13,7 +13,7 @@ def loss_function(expected_outputs, guessed_outputs):
         cost += (guessed_outputs[i] - expected_outputs[i])**2
     return cost
 
-print(loss_function(expected_outputs, guessed_outputs))
+print(f"Loss function result: {loss_function(expected_outputs, guessed_outputs)}")
 
 neuron2_weight2_list = [0.89, 0.52, 0.11]
 total_loss_change_list = [1.0665517963553084, 1.029837217771226, 0.9880886177233045]
